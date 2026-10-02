@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuana KANUN</title>
+    <style>
+        :root {
+            --bg-color: #330536;
+            --card-bg: #341e49;
+            --text-primary: #c9d1d9;
+            --text-secondary: #8b949e;
+            --accent-color: #58a6ff;
+        }
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card-container {
+            background-color: var(--card-bg);
+            border: 1px solid #59055c;
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            width: 300px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid var(--accent-color);
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0 0 5px 0;
+            font-size: 24px;
+        }
+        p {
+            margin: 0 0 20px 0;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .links a {
+            text-decoration: none;
+            background-color: #21262d;
+            color: var(--text-primary);
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            transition: 0.2s;
+            font-weight: 600;
+        }
+        .links a:hover {
+            background-color: #30363d;
+            border-color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+
+<div class="card-container">
+    <img src="profile.jpeg" alt="Profil Fotoğrafı" class="profile-img">
+    
+    <h1>Tuana KANUN</h1>
+    <p>Biologist</p>
+
+    <div class="links">
+        <a href="tel:+905425100088">📱 Phone</a>
+        
+        <a href="mailto:tuanakanun@icloud.com">✉️ E-Mail</a>
+        
+        <a href="https://www.linkedin.com/in/tuana-kanun/" target="_blank" rel="noopener noreferrer">🔗 LinkedIn</a>
+    </div>
+</div>
+
+</body>
+</html>
